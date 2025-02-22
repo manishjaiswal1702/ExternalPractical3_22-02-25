@@ -1,0 +1,234 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Stylish", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-color: #19528a;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #19528a;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.icon a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    height: 81vh;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buy-btn {
+    background-color: #182a48;
+    color: white;
+}
+
+.buy-btn:hover {
+    background-color: white;
+    color: #182a48;
+}
+
+.find-btn {
+    background-color: white;
+    color: black;
+}
+
+.find-btn:hover {
+    background-color: #182a48;
+    color: white;
+}
+
+.photo img {
+    width: 750px;
+    height: 500px;
+    margin-right: 45px;
+    border-radius: 50px;
+    transition: transform 0.5s ease;
+}
+
+.photo img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.line {
+    background-color: rgb(124, 122, 122);
+    height: 1px;
+}
+
+/* Product Section */
+.products {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #19528a;
+}
+
+.products h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.product-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.product-item img:hover {
+    transform: scale(1.05);
+}
+
+.product-item h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.product-item p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Flavor Section */
+.flavor {
+    text-align: center;
+    padding: 50px;
+    background-color: #182a48;
+}
+
+.flavor h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.flavor p {
+    font-size: 22px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Feedback Section */
+.feedback {
+    text-align: center;
+    padding: 50px;
+    background-color: #19528a;
+}
+
+.feedback h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.feedback form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feedback form label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.feedback form input,
+.feedback form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #182a48;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.feedback form button:hover {
+    background-color: white;
+    color: #182a48;
+    border: 1px solid #182a48;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCream</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">eCream</div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="icon">
+                <a href="#"><img class="insta" src="instagram-line.svg" alt="Instagram"></a>
+                <a href="#"><img class="twit" src="twitter-fill.svg" alt="Twitter"></a>
+            </div>
+        </nav>
+    </header>
+    <div class="line"></div>
+    <main class="hero">
+        <div class="hero-text">
+            <h1>Real ice cream for real ice</h1>
+            <h1>cream lovers</h1>
+            <p>Sweet ice cream for pleasure seekers.</p>
+            <div class="hero-buttons">
+                <button class="btn buy-btn">Buy Online</button>
+                <button class="btn find-btn">Find in Store</button>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="https://images.pexels.com/photos/1352296/pexels-photo-1352296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Ice Cream">
+        </div>
+    </main>
+    <div class="line"></div>
+
+    <!-- Section for different images and prices -->
+    <section class="products">
+        <h2>Explore Our Flavors</h2>
+        <div class="product-item">
+            <img src="https://files.oaiusercontent.com/file-Ni4yTBMB57eWw5P3crb8gm?se=2025-02-22T10%3A00%3A53Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D65b9d280-2f76-4973-acc8-91547cfd0231.webp&sig=ndWKLHBRGtXU0FJpkxTSBdX4DbzDMjNAPD3inCOr6HI%3D" alt="Ice Cream Flavor 1">
+            <h3>Chocolate Dream</h3>
+            <p>$3.99</p>
+        </div>
+        <div class="product-item">
+            <img src="https://files.oaiusercontent.com/file-7VUHyyLqGyKeuuB9eDGHir?se=2025-02-22T10%3A01%3A11Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D3e988f8c-f6de-45e1-aa50-74830fc0fa68.webp&sig=XBS8V5xcPasqjQx%2BDAJHnq9b8P25T4M0e/ktMxqt550%3D" alt="Ice Cream Flavor 2">
+            <h3>Vanilla Delight</h3>
+            <p>$3.49</p>
+        </div>
+        <div class="product-item">
+            <img src="https://files.oaiusercontent.com/file-PENzq4ur59BPn7MjEQfsiB?se=2025-02-22T10%3A01%3A19Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db5773be5-528e-4df3-ab93-e8ae8bd083fb.webp&sig=W8MoW1OAIRRxN%2BQPzPFJfPdvy6HW%2B1kSKB528tbPedc%3D" alt="Ice Cream Flavor 3">
+            <h3>Strawberry Sensation</h3>
+            <p>$4.29</p>
+        </div>
+        <div class="product-item">
+            <img src="https://files.oaiusercontent.com/file-MLQm2Pmsbk47odBdqJA2G9?se=2025-02-22T10%3A04%3A09Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D13b0a63c-6bd4-4987-a2e4-51386ceb27cf.webp&sig=sZ4yBeezTLRJp6tK1imI0FvCkDKGDKmQLbnOZP8pq44%3D" alt="Ice Cream Flavor 3">
+            <h3>Ice cream sandwich</h3>
+            <p>$8.29</p>
+        </div>
+    </section>
+
+    <!-- Section about the flavor of ice -->
+    <section class="flavor">
+        <h2>Our Signature Flavor</h2>
+        <p>Discover our exclusive flavor that melts in your mouth, crafted with the finest ingredients.</p>
+    </section>
+
+    <!-- Section for submitting feedback -->
+    <section class="feedback">
+        <h2>Submit Your Feedback</h2>
+        <form action="/submit-feedback" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Feedback:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
